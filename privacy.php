@@ -1,3 +1,5 @@
+<?php include 'header.html';?>
+
 Privacy Policy
 NORSATS
 
@@ -87,3 +89,6 @@ This Privacy Policy was last updated on 2025/09/29 06:01:08
 
 Contact Us
 If you have any questions about this Privacy Policy, You can contact us via email at mynorsats@gmail.com
+
+
+<?php include 'footer.html';?>

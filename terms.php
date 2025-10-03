@@ -1,3 +1,5 @@
+<?php include 'header.html';?>
+
 Terms and Conditions
 Last updated: September 29, 2025
 
@@ -96,3 +98,5 @@ Contact Us
 If you have any questions about these Terms and Conditions, You can contact us:
 
 By visiting this page on our website: www.norsats.my
+
+<?php include 'footer.html';?>
