@@ -1,13 +1,15 @@
 <?php include 'header.html';?>
 
-Privacy Policy
-NORSATS
 
-This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You respond to our advertisements and tells You about Your privacy rights and how the law protects You. We use Your Personal Data to contact and support you, as well as to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.
+<div class="w3-padding w3-white w3-display-container">
+  <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright"><i class="fa fa-remove"></i></span>
+  <h2>Privacy Policy</h2>
+  <h3>NORSATS</h3>
+  <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You respond to our advertisements and tells You about Your privacy rights and how the law protects You. We use Your Personal Data to contact and support you, as well as to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</p>
 
-Interpretation and Definitions
-Interpretation
-The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
+<h3>Interpretation and Definitions</h3>
+<p>Interpretation</p>
+<p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
 
 Definitions
 For the purposes of this Privacy Policy:
@@ -90,5 +92,5 @@ This Privacy Policy was last updated on 2025/09/29 06:01:08
 Contact Us
 If you have any questions about this Privacy Policy, You can contact us via email at mynorsats@gmail.com
 
-
+</div>
 <?php include 'footer.html';?>
