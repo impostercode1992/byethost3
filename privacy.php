@@ -1,11 +1,9 @@
 <?php include 'header.html';?>
 
-
-<div class="w3-padding w3-white w3-display-container">
-  <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright"><i class="fa fa-remove"></i></span>
-  <h2>Privacy Policy</h2>
-  <h3>NORSATS</h3>
-  <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You respond to our advertisements and tells You about Your privacy rights and how the law protects You. We use Your Personal Data to contact and support you, as well as to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</p>
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">Privacy Policy</h2>
+    <p class="w3-wide"><b>NORSATS</b></p>
+    <p class="w3-justify">This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You respond to our advertisements and tells You about Your privacy rights and how the law protects You. We use Your Personal Data to contact and support you, as well as to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</p>
 
 <h3>Interpretation and Definitions</h3>
 <p>Interpretation</p>
@@ -94,3 +92,15 @@ If you have any questions about this Privacy Policy, You can contact us via emai
 
 </div>
 <?php include 'footer.html';?>
+
+
+
+
+
+
+
+    
+  </div>
+  </div>
+
+         
