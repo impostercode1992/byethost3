@@ -1,4 +1,4 @@
-  <div class="w3-margin-top w3-white w3-center" id="myNavbar">
+  <div class="w3-margin-top w3-container w3-center" id="myNavbar">
         <div class="w3-half w3-hide-small">
             <a href="https://www.norsats.my" class="w3-bar-item w3-button">Norsats</a>
             <a href="#work" class="w3-bar-item w3-button">Work</a>
@@ -26,3 +26,21 @@
         <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">Pricing</a>
         <a id="g_id_onload" data-auto_prompt="false" data-callback="handleCredentialResponse" data-client_id="53470530043-5gvhfeap2r8e2vjdjbjl82q22u75pq5k.apps.googleusercontent.com" class="w3-bar-item w3-button g_id_signin" /><i class="fa fa-user-o"></i> Login</a> 
         </nav>
+
+        <script>
+        // Toggle between showing and hiding the sidebar when clicking the menu icon
+        var mySidebar = document.getElementById("mySidebar");
+
+        function w3_open() {
+          if (mySidebar.style.display === 'block') {
+            mySidebar.style.display = 'none';
+          } else {
+            mySidebar.style.display = 'block';
+          }
+        }
+
+        // Close the sidebar with the close button
+        function w3_close() {
+            mySidebar.style.display = "none";
+        }
+        </script>
