@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+      <meta name="description" content="Proven methods to make money online, including freelance work, affiliate marketing, digital products, and remote jobs." />
+      <title>Norsats</title>
+      <link rel="canonical" href="https://www.norsats.my" />
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-G0T0SBE4JH"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         gtag('config', 'G-G0T0SBE4JH');
+            </script>
+      <script src="https://accounts.google.com/gsi/client" async defer></script>
+		  <script>
+        function decodeJWT(token) {
+        let base64Url = token.split(".")[1];
+        let base64 = base64Url.replace(/-/g, "+").replace(/_/g, "/");
+        let jsonPayload = decodeURIComponent(
+          atob(base64)
+          .split("")
+          .map(function (c) {
+            return "%" + ("00" + c.charCodeAt(0).toString(16)).slice(-2);
+          })
+          .join("")
+        );
+        return JSON.parse(jsonPayload);
+        }
+        
+        function handleCredentialResponse(response) {
+        console.log("Encoded JWT ID token: " + response.credential);
+        const responsePayload = decodeJWT(response.credential);
+        console.log("Decoded JWT ID token fields:");
+        console.log("  Full Name: " + responsePayload.name);
+        console.log("  Given Name: " + responsePayload.given_name);
+        console.log("  Family Name: " + responsePayload.family_name);
+        console.log("  Unique ID: " + responsePayload.sub);
+        console.log("  Profile image URL: " + responsePayload.picture);
+        console.log("  Email: " + responsePayload.email);
+        }
+
+        // Modal Image Gallery
+        function onClick(element) {
+          document.getElementById("img01").src = element.src;
+          document.getElementById("modal01").style.display = "block";
+          var captionText = document.getElementById("caption");
+          captionText.innerHTML = element.alt;
+        }
+
+        // Toggle between showing and hiding the sidebar when clicking the menu icon
+        var mySidebar = document.getElementById("mySidebar");
+
+        function w3_open() {
+          if (mySidebar.style.display === 'block') {
+            mySidebar.style.display = 'none';
+          } else {
+            mySidebar.style.display = 'block';
+          }
+        }
+
+        // Close the sidebar with the close button
+        function w3_close() {
+            mySidebar.style.display = "none";
+        }
+      </script>
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
+         .w3-sidebar,body,h1,h2,h3,h4,h5,h6,.w3-wide, a, u {font-family: "Raleway", sans-serif; text-decoration: none;}
+        </style>
+</head>
+<body class="w3-light-grey">
+<header>
+
