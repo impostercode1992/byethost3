@@ -9,5 +9,22 @@
     </div>
 </div>
 
-<script src="ga.js"></script>
+<script>
+ // Function to check for token and redirect if necessary
+function checkAuthAndLoadContent() {
+  const token = localStorage.getItem('authToken'); // Or retrieve from cookie
+
+  if (token) {
+    // Optionally, send token to backend for full validation
+    // If valid, load protected content
+    console.log("Token found and potentially valid. Loading protected content.");
+    // Example: Show protected content div
+    document.getElementById('protected-content').style.display = 'block';
+  } else {
+    console.log("No token found. Redirecting to login page.");
+    // Example: Redirect to login page
+    window.location.href = '/index.php';
+  }
+}
+</script>
 <?php include 'wc/footer.html';?>
