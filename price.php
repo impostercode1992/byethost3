@@ -1,4 +1,8 @@
-      <div class="w3-row-padding" id="price">
+<?php include 'wc/header.html';?>
+<?php include 'wc/navbar.html';?>
+<div class="w3-content w3-center" onload="checkAuthAndLoadContent()"></div>   
+      
+<div class="w3-row-padding" id="price">
           <div class="w3-center w3-padding-48">
             <h1><b>Choose Your Plan</b></h1>
             <p>Choose a pricing plan that fits your needs. Cancel anytime.</p>
@@ -52,3 +56,13 @@
             </div>
           </div>
         </div>
+
+    <div id="g_id_onload"
+     data-client_id="53470530043-5gvhfeap2r8e2vjdjbjl82q22u75pq5k.apps.googleusercontent.com"
+     data-login_uri="https://norsats.my"
+     data-auto_select="true">
+    </div>
+</div>
+
+<script src="ga.js"></script>
+<?php include 'wc/footer.html';?>
