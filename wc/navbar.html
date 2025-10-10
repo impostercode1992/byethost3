@@ -1,7 +1,30 @@
+<div class="w3-container w3-bar">
+  <a href="www.norsats.my" class="w3-bar-item w3-button">Home</a>
+  <a href="portfolio.php" class="w3-bar-item w3-button w3-hide-small">Team</a>
+  <a href="blog.norsats.my" class="w3-bar-item w3-button w3-hide-small">Blog</a>
+  <a href="price.php" class="w3-bar-item w3-button w3-hide-small">Price</a>
+  <?php include 'wc/login.html';?>
+  <a
+    href="javascript:void(0)"
+    class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+    onclick="myFunction()"
+    >&#9776;</a
+  >
+</div>
 
-        <a href="https://www.norsats.my" class="w3-bar-item w3-button">Norsats</a>
-        <a href="#work" class="w3-bar-item w3-button">Work</a>
-        <a href="portfolio.php" class="w3-bar-item w3-button">Team</a>
-        <a href="https://blog.norsats.my" class="w3-bar-item w3-button">Blog</a>
-        <a href="price.php" class="w3-bar-item w3-button">Pricing</a>
-    
+<div id="demo" class="w3-bar-block w3-red w3-hide w3-hide-large w3-hide-medium">
+  <a href="portfolio.php" class="w3-bar-item w3-button">Team</a>
+  <a href="blog.norsats.my" class="w3-bar-item w3-button">Blog</a>
+  <a href="price.php" class="w3-bar-item w3-button">Price</a>
+</div>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("demo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+</script>
